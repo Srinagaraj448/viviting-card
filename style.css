@@ -1,7 +1,6 @@
 .parent {
     display: flex;
     align-items: stretch;
-     padding-left: 420px;
     border-radius: 5px;
     
   }
@@ -76,9 +75,10 @@
 .hobby{
     padding-left: 10px;
     background-image: url(./assortment-sports-supplies.jpg);
-    background-size: 500px 500px;
+    background-size: cover;
     margin: 0px;
-    height: 430px;
+    height: 450px;
+    
 }
 .hobby-item{
     display: flex;
